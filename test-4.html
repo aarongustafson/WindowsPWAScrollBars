@@ -7,7 +7,7 @@
   <title>Windows Share Target Example</title>
   <link rel="manifest" href="manifest.json">
   <!--  Styles  -->
-  <link rel="stylesheet" href="/c/default.css">
+  <link rel="stylesheet" href="c/default.css">
   <style>
     body {
       width: 100%;
@@ -47,7 +47,7 @@
   <!-- Scripts -->
   <script>
     if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('/sw.js');
+      navigator.serviceWorker.register('sw.js');
     }
     document.querySelector('pre code').innerHTML = document.querySelector('style').innerHTML;
   </script>
